@@ -1,8 +1,6 @@
 package net.nooby.testmod.item;
 
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -27,9 +25,39 @@ public class ModItems {
 
 
     public static  final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword",
-            () -> new SwordItem(ModItemTier.AMETHYST,  2,3f, new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
-                    .maxDamage(8)));
+            () -> new SwordItem(ModItemTier.AMETHYST,
+                    2,
+                    3f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+                    ));
 
+    public static  final RegistryObject<Item> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe",
+            () -> new PickaxeItem(ModItemTier.AMETHYST,
+                    0,
+                    -1f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+    public static  final RegistryObject<Item> AMETHYST_AXE = ITEMS.register("amethyst_axe",
+            () -> new AxeItem(ModItemTier.AMETHYST,
+                    5,
+                    -2.3f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+    public static  final RegistryObject<Item> AMETHYST_HOE = ITEMS.register("amethyst_hoe",
+            () -> new HoeItem(ModItemTier.AMETHYST,
+                    -12,
+                    -2f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+    public static  final RegistryObject<Item> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel",
+            () -> new ShovelItem(ModItemTier.AMETHYST,
+                    -12,
+                    -2f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
 
 
     public static void register(IEventBus eventBus){

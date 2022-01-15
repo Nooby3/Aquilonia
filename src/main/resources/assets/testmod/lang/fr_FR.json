@@ -1,6 +1,12 @@
 {
   "item.testmod.amethyst": "Améthyste",
   "item.testmod.flint_and_steel_boosted": "Briquet Maudit",
+  "item.testmod.amethyst_sword": "Epée D'Améthyste",
+  "item.testmod.amethyst_pickaxe": "Pioche D'Améthyste",
+  "item.testmod.amethyst_axe": "Hache D'Améthyste",
+  "item.testmod.amethyst_hoe": "Houe D'Améthyste",
+  "item.testmod.amethyst_shovel": "Pelle D'Améthyste",
+
 
 
   "block.testmod.amethyst_ore": "Minerai D'Améthyste",

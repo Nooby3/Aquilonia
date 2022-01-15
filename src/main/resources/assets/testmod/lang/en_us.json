@@ -1,6 +1,11 @@
 {
   "item.testmod.amethyst": "Amethyst",
   "item.testmod.flint_and_steel_boosted": "Curse Flint and Steel",
+  "item.testmod.amethyst_sword": "Amethyst Sword",
+  "item.testmod.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.testmod.amethyst_axe": "Amethyst Axe",
+  "item.testmod.amethyst_hoe": "Amethyst Hoe",
+  "item.testmod.amethyst_shovel": "Amethyst Shovel",
 
 
   "block.testmod.amethyst_ore": "Amethyst Ore",
