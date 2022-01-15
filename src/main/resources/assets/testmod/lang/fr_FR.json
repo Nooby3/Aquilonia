@@ -1,0 +1,13 @@
+{
+  "item.testmod.amethyst": "Améthyste",
+  "item.testmod.flint_and_steel_boosted": "Briquet Maudit",
+
+
+  "block.testmod.amethyst_ore": "Minerai D'Améthyste",
+  "block.testmod.amethyst_block": "Bloc D'Améthyste",
+  "block.testmod.firestone_block": "Block de pierre de feu",
+
+
+  "itemGroup.testmodtab": "Aquilonia"
+
+}
