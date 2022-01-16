@@ -13,16 +13,21 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TestMod.MOD_ID);
 
-
+//New Materials :
 
     public static  final RegistryObject<Item> AMETHYST = ITEMS.register("amethyst",
             () -> new Item(new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)));
 
+    public static  final RegistryObject<Item> FIRESTONE = ITEMS.register("firestone",
+            () -> new Item(new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)));
+
+//Strange Items :
 
     public static  final RegistryObject<Item> FLINT_AND_STEEL_BOOSTED = ITEMS.register("flint_and_steel_boosted",
             () -> new Flint_And_Steel_Boosted(new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
                     .maxDamage(8)));
 
+//Amethyst Stuff
 
     public static  final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword",
             () -> new SwordItem(ModItemTier.AMETHYST,
@@ -59,6 +64,43 @@ public class ModItems {
                     new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
             ));
 
+//Firestone Stuff
+
+    public static  final RegistryObject<Item> FIRESTONE_SWORD = ITEMS.register("firestone_sword",
+            () -> new SwordItem(ModItemTier.FIRESTONE,
+                    2,
+                    3f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+    public static  final RegistryObject<Item> FIRESONTE_PICKAXE = ITEMS.register("firestone_pickaxe",
+            () -> new PickaxeItem(ModItemTier.FIRESTONE,
+                    0,
+                    -1f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+    public static  final RegistryObject<Item> FIRESTONE_AXE = ITEMS.register("firestone_axe",
+            () -> new AxeItem(ModItemTier.FIRESTONE,
+                    5,
+                    -2.3f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+    public static  final RegistryObject<Item> FIRESTONE_HOE = ITEMS.register("firestone_hoe",
+            () -> new HoeItem(ModItemTier.FIRESTONE,
+                    -12,
+                    -2f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+    public static  final RegistryObject<Item> FIRESTONE_SHOVEL = ITEMS.register("firestone_shovel",
+            () -> new ShovelItem(ModItemTier.FIRESTONE,
+                    -12,
+                    -2f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+    
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -8,12 +8,19 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
 
-    AMETHYST(3,
-            150,
-            4f,
+    AMETHYST(4,
+            1000,
+            8f,
             12,
-            10,
-            () -> Ingredient.fromItems((ModItems.AMETHYST.get())));
+            20,
+            () -> Ingredient.fromItems((ModItems.AMETHYST.get()))),
+
+    FIRESTONE(3,
+            600,
+            7f,
+            7,
+            15,
+            () -> Ingredient.fromItems((ModItems.FIRESTONE.get())));
 
 
 
