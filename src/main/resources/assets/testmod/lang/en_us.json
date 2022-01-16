@@ -1,11 +1,20 @@
 {
   "item.testmod.amethyst": "Amethyst",
+  "item.testmod.firestone": "Firestone",
+
   "item.testmod.flint_and_steel_boosted": "Curse Flint and Steel",
+
   "item.testmod.amethyst_sword": "Amethyst Sword",
   "item.testmod.amethyst_pickaxe": "Amethyst Pickaxe",
   "item.testmod.amethyst_axe": "Amethyst Axe",
   "item.testmod.amethyst_hoe": "Amethyst Hoe",
   "item.testmod.amethyst_shovel": "Amethyst Shovel",
+
+  "item.testmod.firestone_sword": "Firestone Sword",
+  "item.testmod.firestone_pickaxe": "Firestone Pickaxe",
+  "item.testmod.firestone_axe": "Firestone Axe",
+  "item.testmod.firestone_hoe": "Firestone Hoe",
+  "item.testmod.firestone_shovel": "Firestone Shvoel",
 
 
   "block.testmod.amethyst_ore": "Amethyst Ore",

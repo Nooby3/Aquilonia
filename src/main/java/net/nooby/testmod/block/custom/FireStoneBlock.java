@@ -20,14 +20,14 @@ public class FireStoneBlock extends Block {
     @Override
     public ActionResultType onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player,
                                              Hand handIn, BlockRayTraceResult hit) {
-        if(!worldIn.isRemote()){
+        /*if(!worldIn.isRemote()){
             if(handIn == Hand.MAIN_HAND){
                 System.out.println("I right clicked a FireStone Block. Called for the Main Hand!");
             }
             if(handIn == Hand.OFF_HAND){
                 System.out.println("I right clicked a FireStone Block. Called for the Off Hand!");
             }
-        }
+        }*/
         return super.onBlockActivated(state, worldIn, pos, player, handIn, hit);
     }
     @SuppressWarnings("deprecation")
