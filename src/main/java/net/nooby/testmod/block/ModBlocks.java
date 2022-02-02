@@ -46,7 +46,19 @@ public class ModBlocks {
                     .setRequiresTool()
                     .hardnessAndResistance(2f)));
 
+    public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .harvestLevel(4)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(10f)));
 
+    public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
+                    .harvestLevel(3)
+                    .harvestTool(ToolType.PICKAXE)
+                    .setRequiresTool()
+                    .hardnessAndResistance(3f)));
 
 
 

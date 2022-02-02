@@ -21,6 +21,9 @@ public class ModItems {
     public static  final RegistryObject<Item> FIRESTONE = ITEMS.register("firestone",
             () -> new Item(new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)));
 
+    public static  final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
+            () -> new Item(new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)));
+
 //Strange Items :
 
     public static  final RegistryObject<Item> FLINT_AND_STEEL_BOOSTED = ITEMS.register("flint_and_steel_boosted",
@@ -101,6 +104,44 @@ public class ModItems {
                     new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
             ));
     
+//Saphire stuff
+
+    public static  final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
+            () -> new SwordItem(ModItemTier.SAPPHIRE,
+                    2,
+                    3f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+    public static  final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
+            () -> new PickaxeItem(ModItemTier.SAPPHIRE,
+                    0,
+                    -1f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+    public static  final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
+            () -> new AxeItem(ModItemTier.SAPPHIRE,
+                    5,
+                    2.3f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+    public static  final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
+            () -> new HoeItem(ModItemTier.SAPPHIRE,
+                    -12,
+                    -2f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+    public static  final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
+            () -> new ShovelItem(ModItemTier.SAPPHIRE,
+                    -12,
+                    -2f,
+                    new Item.Properties().group(ModItemGroup.AQUILONIA_GROUP)
+            ));
+
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

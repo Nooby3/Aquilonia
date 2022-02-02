@@ -20,7 +20,15 @@ public enum ModItemTier implements IItemTier {
             7f,
             7,
             15,
-            () -> Ingredient.fromItems((ModItems.FIRESTONE.get())));
+            () -> Ingredient.fromItems((ModItems.FIRESTONE.get()))),
+
+    SAPPHIRE(4,
+            1500,
+            7f,
+            7,
+            30,
+            () -> Ingredient.fromItems((ModItems.SAPPHIRE.get())));
+
 
 
 
