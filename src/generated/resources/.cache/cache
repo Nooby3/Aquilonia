@@ -1,0 +1,8 @@
+18f56dc6dd342b43819222a148746d48b3585f42 assets/aquilonia/blockstates/tin_ore.json
+7ec7aaaf133889e4b0439c9ccce6877d2c894a89 assets/aquilonia/lang/en_us.json
+dfde238c195e4f87ac4deea36e1ba43fb743228e assets/aquilonia/models/block/tin_ore.json
+b3ed535cb93f1eaf29b05cb9d34d7343003c5d50 assets/aquilonia/models/item/tin_ore.json
+f698efede915e77a39035ae8dbde1da29be8bced data/forge/tags/blocks/ores.json
+f698efede915e77a39035ae8dbde1da29be8bced data/forge/tags/items/ores.json
+f698efede915e77a39035ae8dbde1da29be8bced data/minecraft/tags/blocks/mineable/pickaxe.json
+f698efede915e77a39035ae8dbde1da29be8bced data/minecraft/tags/blocks/needs_stone_tool.json
